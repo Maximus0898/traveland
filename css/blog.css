@@ -1,0 +1,42 @@
+.blogposts {
+  padding-top: 5.6rem;
+  display: flex;
+}
+
+.blogposts h4 {
+  font-size: 2rem;
+  line-height: 30px;
+  padding-top: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.blogposts p {
+  width: 95%;
+  font-size: 1.8rem;
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+
+.blogposts .username {
+  font-weight: bold;
+  font-size: 2rem;
+  opacity: 1;
+}
+
+.blog-left {
+  flex: 1 0 45%;
+}
+
+.blog-right {
+  flex: 1 0 45%;
+}
+
+.blogpost {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.blogpost-content {
+  padding-left: 3rem;
+}

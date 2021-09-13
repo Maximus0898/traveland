@@ -1,0 +1,8 @@
+.footer {
+  background-color: rgba(38, 148, 153, 0.04);
+  color: var(--text-black);
+}
+
+.footer .logo {
+  color: var(--text-black);
+}

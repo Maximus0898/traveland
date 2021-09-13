@@ -1,0 +1,36 @@
+.carousel-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 7rem;
+  justify-items: center;
+  padding-top: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.loc-name {
+  padding-bottom: 0.8rem;
+}
+
+.offer-card-text span {
+  opacity: 0.6;
+  margin-bottom: 0.8rem;
+}
+
+.offer-rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+}
+
+.place i {
+  color: #fc1200;
+}
+
+.rating i {
+  color: #ffc700;
+}

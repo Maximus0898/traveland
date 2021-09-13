@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Ribeye&family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #c9453b;
+  --text-white: #fff;
+  --text-secondary: #ddd;
+  --text-black: #000;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-white);
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-black);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section,
+footer {
+  margin-top: 14rem;
+}
+
+.section-title {
+  font-size: 4.3rem;
+  font-family: 'Gelasio', sans-serif;
+  font-weight: 500;
+  line-height: 60px;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.sub-title {
+  width: 50%;
+  font-size: 1.8rem;
+  line-height: 28.8px;
+  margin-bottom: 5rem;
+  opacity: 0.6;
+  text-align: center;
+  margin: 0 auto;
+}

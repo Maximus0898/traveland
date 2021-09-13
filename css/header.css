@@ -1,0 +1,79 @@
+.header {
+  height: 120vh;
+  width: 100%;
+  background-image: url('../images/bac-image.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 4rem;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: 500;
+  font-family: 'Ribeye', sans-serif;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li {
+  margin-left: 5rem;
+}
+
+.nav-list .nav-link {
+  font-size: 1.8rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.cta {
+  font-size: 1.6rem;
+  color: var(--text-white);
+  background-color: var(--primary-color);
+  padding: 1.4rem 3.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cta:hover {
+  opacity: 0.9;
+}
+
+.hero-text {
+  margin-top: 15rem;
+  width: 68%;
+  color: var(--text-white);
+}
+
+.hero-text > p {
+  font-size: 1.8rem;
+  color: var(--text-secondary);
+  width: 55%;
+  line-height: 28.8px;
+}
+
+.hero-text .heading {
+  font-size: 6.5rem;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 78px;
+  font-family: 'Gelasio', sans-serif;
+  margin-bottom: 3rem;
+}
+
+.hero-text > .cta {
+  margin-top: 4rem;
+  padding: 2rem 5rem;
+}
