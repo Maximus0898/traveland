@@ -1,6 +1,7 @@
 .blogposts {
   padding-top: 5.6rem;
   display: flex;
+  justify-content: space-between;
 }
 
 .blogposts h4 {
@@ -24,11 +25,11 @@
 }
 
 .blog-left {
-  flex: 1 0 45%;
+  width: 45%;
 }
 
 .blog-right {
-  flex: 1 0 45%;
+  width: 45%;
 }
 
 .blogpost {

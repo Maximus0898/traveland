@@ -1,8 +1,68 @@
 .footer {
   background-color: rgba(38, 148, 153, 0.04);
   color: var(--text-black);
+  padding: 7rem 0;
+}
+
+.footer .footer-link {
+  color: var(--text-black);
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.footer-nav li {
+  margin-bottom: 2rem;
 }
 
 .footer .logo {
+  display: inline-block;
+  color: var(--text-black);
+  margin-bottom: 4rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-column-gap: 5rem;
+}
+
+.navs {
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
+}
+
+.subscribe-form {
+  margin-top: 4rem;
+}
+
+.subscribe-form input {
+  padding: 1rem 2rem;
+  outline: none;
+  border: 1px solid var(--text-secondary);
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.15);
+  margin-right: 3.5rem;
+}
+
+.subscribe-label {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contacts p {
+  margin-bottom: 1rem;
+}
+
+.socials {
+  display: flex;
+  margin-top: 2.4rem;
+}
+
+.socials a {
+  margin-right: 3rem;
+}
+
+.socials a > i {
   color: var(--text-black);
 }
