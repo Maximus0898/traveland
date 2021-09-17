@@ -1,7 +1,7 @@
 .header {
   height: 120vh;
   width: 100%;
-  background-image: url('../images/bac-image.jpg');
+  background-image: url('../images/bac-image.webp');
   background-position: center;
   background-size: cover;
 }
@@ -76,4 +76,32 @@
 .hero-text > .cta {
   margin-top: 4rem;
   padding: 2rem 5rem;
+}
+
+#openBtn,
+.closeBtn {
+  display: none;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+#openBtn > i {
+  font-size: 1.8rem;
+  color: var(--text-white);
+}
+
+.closeBtn {
+  font-size: 4rem;
+  position: absolute;
+  top: 20px;
+  right: 24px;
+}
+
+.hide-btn {
+  display: none;
+}
+
+.navbar .open-menu {
+  width: 100%;
 }

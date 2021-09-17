@@ -22,8 +22,8 @@
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  grid-column-gap: 5rem;
+  grid-template-columns: 1fr repeat(2, 2fr);
+  grid-column-gap: 4rem;
 }
 
 .navs {
@@ -34,6 +34,7 @@
 
 .subscribe-form {
   margin-top: 4rem;
+  display: flex;
 }
 
 .subscribe-form input {
@@ -42,7 +43,12 @@
   border: 1px solid var(--text-secondary);
   border-radius: 5px;
   box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.15);
-  margin-right: 3.5rem;
+}
+
+.footer .cta {
+  padding: 1rem 3.2rem;
+  line-height: 24px;
+  margin-left: 3.5rem;
 }
 
 .subscribe-label {
