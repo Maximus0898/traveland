@@ -71,4 +71,5 @@
 
 .socials a > i {
   color: var(--text-black);
+  font-size: 2rem;
 }

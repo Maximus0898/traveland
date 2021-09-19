@@ -138,13 +138,19 @@
     display: block;
   }
 
-  .open-menu ~ .closeBtn {
+  .closeBtn {
+    font-size: 4rem;
+    position: absolute;
+    top: 20px;
+    right: 24px;
+  }
+
+  .open-menu > .closeBtn {
     display: block;
     z-index: 30;
   }
 
   .navbar {
-    position: relative;
     padding: 2rem;
   }
 

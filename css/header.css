@@ -91,13 +91,6 @@
   color: var(--text-white);
 }
 
-.closeBtn {
-  font-size: 4rem;
-  position: absolute;
-  top: 20px;
-  right: 24px;
-}
-
 .hide-btn {
   display: none;
 }
